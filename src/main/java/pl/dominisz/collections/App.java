@@ -83,23 +83,7 @@ public class App {
 
 
     public static void main(String[] args) {
-
-        ArrayList<Integer> lista=new ArrayList<>();
-
-        addElementsToFront(lista,100000);
-        addElementsToEnd(lista,100000);
-        iterateList(lista);
-        iterateListForEach(lista);
-
-        System.out.println("\nLinked list\n");
-
-        LinkedList<Integer> lista2=new LinkedList<>();
-
-        addElementsToFront(lista2,100000);
-        addElementsToEnd(lista2,100000);
-        iterateList(lista2);
-        iterateListForEach(lista2);
-
+        System.out.println("Hello World!");
     }
 
 }
